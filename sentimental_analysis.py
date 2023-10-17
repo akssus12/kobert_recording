@@ -11,7 +11,7 @@ from tqdm.notebook import tqdm
 device_type = 'cuda' if torch.cuda.is_available() else 'cpu'
 device = torch.device(device_type)
 
-### no module "kobert"를 해결하기 위해 다르게 import한 것들 - https://blog.naver.com/newyearchive/223097878715 참고
+### ..no module "kobert"를 해결하기 위해 다르게 import한 것들 - https://blog.naver.com/newyearchive/223097878715 참고
 ### 기존 githib 말고 아래 우외 github 모델로 해야함! 반드시 ###
 ### pip install 'git+https://github.com/SKTBrain/KoBERT.git#egg=kobert_tokenizer&subdirectory=kobert_hf' ###
 
