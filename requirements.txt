@@ -1,0 +1,10 @@
+gluonnlp==0.8.0
+kobert-tokenizer==0.1
+mxnet==1.9.1
+numpy==1.22.4
+pandas==2.0.3
+PyYAML==6.0.1
+tqdm==4.66.1
+transformers==4.34.0
+urllib3==2.0.6
+torch==2.1.0
